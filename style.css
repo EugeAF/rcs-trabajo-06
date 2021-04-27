@@ -4,7 +4,7 @@
     overflow: hidden;
 }
 .menu {
-    background-color: green;
+    background-color: red;
     clear: both;
     overflow: auto;
 }
