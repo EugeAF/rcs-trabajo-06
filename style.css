@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.menu {
+    background-color: blue;
+    clear: both;
+    overflow: auto;
+}
+.menu--logo {
+    color: red;
+    float: left;
+    width: 70%;
+    padding-top: 5px;
+}
+
+#menu--logo-img{
+    width: 4%;
+    float: left;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.menu--opciones {
+    float: left;
+    width: 30%;
+}
+
+.menu--opciones-inicio {
+    float: left;
+    padding: 10px;
+    padding-right: 10px;
+    margin-left: 80px;
+}
+
+.menu--opciones-inicio:hover{
+    background-color: blueviolet;
+}
+
+.menu--opciones-contacto{
+    float: left;
+    padding: 10px;
+    padding-right: 10px;
+}
+
+.menu--opciones-contacto:hover{
+    background-color: blueviolet;
+}
+
+.menu--opciones-home{
+    float: left;
+    padding: 10px;
+    padding-right: 10px;
+}
+
+.menu--opciones-home:hover{
+    background-color: blueviolet;
+}
+
+.menu--opciones>ul {
+    list-style: none;
+    color: aliceblue;
+}
+.contenido {
+    width: 80%;
+    background-color: red;
+}
+.contenido--titulo{
+    text-align: center;
+}
+.contenido--img {
+    width: 100%;
+}
+.aside {
+    float: right;
+    width: 20%;
+    height: 542px;
+    background-color: thistle;
+}
+.footer{
+    background-color:black;
+    overflow: auto;
+    height: 80px;
+}
+.footer--contacto {
+    color: white;
+    float: left;
+    padding: 10px;
+}
+.footer--titulo {
+    color: white;
+    float: left;
+    margin-left: 25%;
+    padding-top: 15px;
+}
+.footer--ejemplo {
+    color: white;
+    float: left;
+    margin-left: 24%;
+    padding-top: 30px;
+}
